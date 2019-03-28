@@ -3,9 +3,6 @@
   color: red;
   font-family: sans-serif;
   text-align: center;
-  /*border-color: black;
-  border-width: 2px;
-  border-style: solid;*/
 
 }
 
@@ -23,9 +20,6 @@ h1, h2{
   color: white;
   font-size: 40px;
   background-color: grey;
-  /*border-color: black;
-  border-width: 2px;
-  border-style: solid;*/
   text-align: center;
 }
 
@@ -39,19 +33,11 @@ label{
     clear: left;
     width: 200px;
     text-align: right;
-  /*  border-color: black;
-    border-width: 2px;
-    border-style: solid;*/
     margin-top: 10px;
 }
 
 input, .country{
   float: left;
-  width: 300px;
-  /*border-color: black;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 10px;*/
   margin-top: 10px;
 
 }
