@@ -3,40 +3,36 @@ body{
   padding:0;
   font-family: Arial, Helvetica, sans-serif;
   background: url(mac.jpg);
+  background-attachment: fixed;
   background-size: cover;
-  box-sizing: border-box;
-
 }
 
 
 .registrationform{
   width: 100%;
   max-width: 500px;
-  position:fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 40px 50px;
+  position: fixed;
+  padding: 30px 40px;
   background: #f2f2f2;
   text-align: center;
-
-
 }
+
 .registrationform h1{
   font-size: 50px;
   font-family:cursive;
 }
 
 .form{
+  margin: 8px 0px;
   border: 1px solid gray;
-  margin: 8px 0;
   padding: 15px 20px;
-  border-radius: 8px;
-  display: block;
+  border-radius: 13px;
   text-align: left;
   font-size: 17px;
   margin-bottom: 10px
-
 }
 
 .form input, date{
@@ -55,7 +51,7 @@ body{
   background: #F06A00;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
-  padding: 14px 0px;
+  padding: 20px 30px;
   color: white;
   text-transform: uppercase;
 }
