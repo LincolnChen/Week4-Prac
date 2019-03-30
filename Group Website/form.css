@@ -2,43 +2,73 @@ body{
   margin:0;
   padding:0;
   font-family: Arial, Helvetica, sans-serif;
-  background: url(mac.jpg);
+  background: url(book.jpg);
   background-size: cover;
   box-sizing: border-box;
 
 }
 
-.registrationform{
-  width: 100%;
-  max-width: 500px;
-  position:fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 40px 50px;
-  background: #f2f2f2;
-  text-align: center;
-
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 5px;
 }
 
-
-fieldset {
-  font-size: 15px;
-  color: black;
-  font-family: helvetica;
-  background-color: white;
+input{
+  float: left;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: 25px;
 }
 
+input:hover {
+  background-color: #c9ccc9;
+}
 
-h1, h2{
+h1{
   color: black;
   font-size: 40px;
   text-align: center;
   font-family: sans-serif;
-  background: white;
+  background: #FAFAFA;
+  border-radius: 10px;
+  padding: none;
 }
 
+.teamform{
+  width: 100%;
+  max-width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  padding: 20px 20px;
+  background: #f2f2f2;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.already{
+  margin-top: 280px;
+  text-align: center;
+  background: #FAFAFA;
+}
+
+.registerbtn{
+  border-radius: 20px;
+  width: 80px;
+
+}
 footer{
-  font-size: 20px;
-  margin-top: 300px;
+  position: fixed;
+  margin-top: 670px;
+  text-align: center;
+  margin-left: 10px;
+  background:#FAFAFA;;
+  border-radius: 10px;
 }
